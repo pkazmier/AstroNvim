@@ -182,9 +182,7 @@ end
 maps.v["<"] = { "<gv", desc = "unindent line" }
 maps.v[">"] = { ">gv", desc = "indent line" }
 
--- Improved Terminal Mappings
-maps.t["<esc>"] = { "<C-\\><C-n>", desc = "Terminal normal mode" }
-maps.t["jk"] = { "<C-\\><C-n>", desc = "Terminal normal mode" }
+-- Improved Terminal Navigation
 maps.t["<C-h>"] = { "<c-\\><c-n><c-w>h", desc = "Terminal left window navigation" }
 maps.t["<C-j>"] = { "<c-\\><c-n><c-w>j", desc = "Terminal down window navigation" }
 maps.t["<C-k>"] = { "<c-\\><c-n><c-w>k", desc = "Terminal up window navigation" }
